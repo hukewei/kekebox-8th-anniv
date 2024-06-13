@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html> 
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" > 
+    <title>Kekebox 8th Anniversary Edition</title> 
+    <meta name="description" content="kekebox"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //      Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='css/camera.css' type='text/css' media='all'> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #back_to_camera {
+            background: rgba(255,255,255,.9);
+            clear: both;
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }   
+        a {
+            color: #09f;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        #back_to_camera {
+            clear: both;
+            display: block;
+            height: 80px;
+            line-height: 40px;
+            padding: 20px;
+        }
+        .fluid_container {
+            margin: 0 auto;
+            max-width: 1000px;
+            width: 90%;
+        }
+    </style>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //      Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type='text/javascript' src='scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='scripts/camera.min.js'></script> 
+    
+    <script>
+        jQuery(function(){
+            
+            jQuery('#camera_wrap_1').camera({
+                thumbnails: true
+            });
+
+            jQuery('#camera_wrap_2').camera({
+                height: '400px',
+                loader: 'bar',
+                pagination: false,
+                thumbnails: true
+            });
+        });
+    </script>
+ 
+</head>
+<body>
+    <div id="back_to_camera">
+        <a href="http://kekebox.kewei.hu/p">&larr; 查看所有照片</a>
+    </div><!-- #back_to_camera -->
+
+    
+    <div class="fluid_container">
+        <h1>Kekebox 8th Anniversary Edition</h1>
+        <p><em>不定时更新中。。。</em></p>
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="images/slides/thumbs/group_photo.jpg" data-src="images/slides/group_photo.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    Forever 0615
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/big_lee.jpg" data-src="images/slides/big_lee.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    谁能告诉我老李去哪了？
+                </div>
+            </div>
+            <div data-thumb="./images/slides/thumbs/fondu.jpg" data-src="./images/slides/fondu.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    吃着火锅唱着歌</em>
+                </div>
+            </div>
+            
+            <div data-thumb="images/slides/thumbs/mr_black.jpg" data-src="images/slides/mr_black.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    成功男人的背后都有一个女人
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/no_photo.jpg" data-src="images/slides/no_photo.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    禁止拍照
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/rmb.jpg" data-src="images/slides/rmb.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    How much for one night?
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/selfie.jpg" data-src="images/slides/selfie.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    自拍
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/three_people.jpg" data-src="images/slides/three_people.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    艾玛
+                </div>
+            </div>
+            <div data-thumb="images/slides/thumbs/xiang.png" data-src="images/slides/xiang.jpg">
+                <div class="camera_caption fadeFromBottom">
+                    猥琐翔
+                </div>
+            </div>
+        </div><!-- #camera_wrap_2 -->
+    </div><!-- .fluid_container -->  
+    <div style="clear:both; display:block; height:40px"></div>
+    <div class="fluid_container">
+        <blockquote>
+        <p>欢迎大家踊跃投稿封面照片。投稿请发送照片和简短文字说明至:<a HREF="mailto:admin@kekebox.com?subject=[照片投稿]">admin@kekebox.com</a>。照片一经采用，稿酬丰厚，珂币支付，安全快捷。</p>
+        <p>如果你觉得本页面的照片侵害了你的权益，请及时进行<a HREF="mailto:admin@kekebox.com?subject=[举报照片]"><button type="button" class="btn btn-danger">举报</button></a>。</p></div>
+        </blockquote>
+        <div style="clear:both; display:block; height:40px"></div>
+        <div id="disqus_thread" class="fluid_container"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'kekebox';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</body> 
+</html>
